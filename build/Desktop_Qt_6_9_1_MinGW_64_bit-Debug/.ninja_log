@@ -1,15 +1,17 @@
 # ninja log v6
-8	699	7745842755001162	ProyectoProgramacion_autogen/timestamp	4ae7c506b9c01f46
-8	699	7745842755001162	ProyectoProgramacion_autogen/mocs_compilation.cpp	4ae7c506b9c01f46
-8	699	7745842755001162	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ProyectoProgramacion_autogen/timestamp	4ae7c506b9c01f46
-8	699	7745842755001162	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ProyectoProgramacion_autogen/mocs_compilation.cpp	4ae7c506b9c01f46
-705	2916	7745842755949891	CMakeFiles/ProyectoProgramacion.dir/ProyectoProgramacion_autogen/mocs_compilation.cpp.obj	efe3d6a3dfdbffe0
-710	2936	7745842755999888	CMakeFiles/ProyectoProgramacion.dir/main.cpp.obj	14d4897906ac5b99
-714	3078	7745842756039418	CMakeFiles/ProyectoProgramacion.dir/mainwindow.cpp.obj	3b2ded10fe47893
-3078	3337	7745842779680749	ProyectoProgramacion.exe	dfe25fdb25e799e1
 41	185	7745843081262857	ProyectoProgramacion_autogen/timestamp	4ae7c506b9c01f46
 41	185	7745843081262857	ProyectoProgramacion_autogen/mocs_compilation.cpp	4ae7c506b9c01f46
 41	185	7745843081262857	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ProyectoProgramacion_autogen/timestamp	4ae7c506b9c01f46
 41	185	7745843081262857	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ProyectoProgramacion_autogen/mocs_compilation.cpp	4ae7c506b9c01f46
+710	2936	7745842755999888	CMakeFiles/ProyectoProgramacion.dir/main.cpp.obj	14d4897906ac5b99
+705	2916	7745842755949891	CMakeFiles/ProyectoProgramacion.dir/ProyectoProgramacion_autogen/mocs_compilation.cpp.obj	efe3d6a3dfdbffe0
 186	1585	7745843082702587	CMakeFiles/ProyectoProgramacion.dir/mainwindow.cpp.obj	3b2ded10fe47893
 1585	1736	7745843096700189	ProyectoProgramacion.exe	dfe25fdb25e799e1
+36	895	7745893111486418	ProyectoProgramacion_autogen/timestamp	4ae7c506b9c01f46
+36	895	7745893111486418	ProyectoProgramacion_autogen/mocs_compilation.cpp	4ae7c506b9c01f46
+36	895	7745893111486418	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ProyectoProgramacion_autogen/timestamp	4ae7c506b9c01f46
+36	895	7745893111486418	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ProyectoProgramacion_autogen/mocs_compilation.cpp	4ae7c506b9c01f46
+900	3496	7745893112510353	CMakeFiles/ProyectoProgramacion.dir/main.cpp.obj	14d4897906ac5b99
+896	3790	7745893112369185	CMakeFiles/ProyectoProgramacion.dir/ProyectoProgramacion_autogen/mocs_compilation.cpp.obj	efe3d6a3dfdbffe0
+906	3900	7745893112550520	CMakeFiles/ProyectoProgramacion.dir/mainwindow.cpp.obj	3b2ded10fe47893
+3900	4058	7745893142496198	ProyectoProgramacion.exe	dfe25fdb25e799e1
