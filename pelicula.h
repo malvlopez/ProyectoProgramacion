@@ -4,11 +4,9 @@
 #endif // PELICULA_H
 
 struct pelicula {
-    int posicion;
     QString titulo;
     float calificacion;
     int anio;
     QString estado;
     QString director;
-
 };

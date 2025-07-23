@@ -65,7 +65,7 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="BotonAgregar_2">
+      <widget class="QPushButton" name="BotonActualizar">
        <property name="text">
         <string>ACTUALIZAR</string>
        </property>
@@ -79,7 +79,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="BotonAgregar_3">
+      <widget class="QPushButton" name="BotonEliminar">
        <property name="text">
         <string>ELIMINAR</string>
        </property>
