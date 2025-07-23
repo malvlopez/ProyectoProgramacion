@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>945</width>
+    <height>612</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>0</x>
       <y>190</y>
-      <width>801</width>
-      <height>381</height>
+      <width>951</width>
+      <height>401</height>
      </rect>
     </property>
     <column>
@@ -35,7 +35,12 @@
     </column>
     <column>
      <property name="text">
-      <string>Calificacion</string>
+      <string>Director</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Año</string>
      </property>
     </column>
     <column>
@@ -43,8 +48,13 @@
       <string>Estado</string>
      </property>
     </column>
+    <column>
+     <property name="text">
+      <string>Calificacion</string>
+     </property>
+    </column>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -77,16 +87,6 @@
      </item>
     </layout>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
