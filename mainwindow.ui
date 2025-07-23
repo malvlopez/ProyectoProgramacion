@@ -14,18 +14,68 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QTableWidget" name="tablaMostrarPelis">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>220</y>
-      <width>80</width>
-      <height>24</height>
+      <x>0</x>
+      <y>190</y>
+      <width>801</width>
+      <height>381</height>
      </rect>
     </property>
-    <property name="text">
-     <string>PushButton</string>
+    <column>
+     <property name="text">
+      <string>No</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Titulo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Calificacion</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Estado</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>258</width>
+      <height>26</height>
+     </rect>
     </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="BotonAgregar_2">
+       <property name="text">
+        <string>ACTUALIZAR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BotonAgregar">
+       <property name="text">
+        <string>AGREGAR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BotonAgregar_3">
+       <property name="text">
+        <string>ELIMINAR</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

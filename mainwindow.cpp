@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->tablaMostrarPelis->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+
 }
 
 MainWindow::~MainWindow()
