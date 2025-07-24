@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 #include "pelicula.h"
 #include <QMainWindow>
+#include <QMessageBox>  
+#include <QVector> 
 using namespace std;
 
 
@@ -22,6 +24,8 @@ public:
 private slots:
     void on_BotonAgregar_clicked();
     void on_tablaMostrarPelis();
+    void on_BotonEditar_clicked();  
+    void on_BotonEliminar_clicked();
 
 
 private:
