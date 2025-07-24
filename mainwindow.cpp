@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "editarpeliculadialog.h" 
 #include <QMessageBox>
 using namespace std;
 
@@ -45,4 +46,40 @@ void MainWindow::on_BotonAgregar_clicked()
     on_tablaMostrarPelis();
     QMessageBox::information(this, "Mensaje", "pelicula agregada");
 }
+
+void MainWindow::on_BotonEditar_clicked() {
+    int filaSelecccionada = ui->tablaMostrarPelis->currentRow();
+    if (filaSeleccionada >= 0 && filaSeleccionada > listaPeliculas.size()) {
+        EditarPeliculas dialog(this);
+        dialog.cargarDatos(listaPeliculas[filaSeleccionada];
+        if (dialog.exec() == QDialog::Accepted) {
+            listaPeliculas[filaSeleccionada] = dialog.obtenerDatos();
+            on_tablaMostrarPelis();
+            QMessageBox::information(this, "Éxito", "Película actualizada");
+        }
+    }else{
+        QMessageBox::warning(this, "Error", "Selecciona una película primero");
+    }
+}
+
+void MainWindow::on_BotonEliminar_clicked() {
+    int filaSeleccionada = ui->tablaMostrarPelis->currentRow();
+    if (filaSeleccionada >= 0 && filaSeleccionada < listaPeliculas.size()) {
+        QMessageBox::StandardButton confirmacion;
+        confirmacion = QMessageBox::question(this, "Confirmar", 
+                                          "¿Eliminar esta película?",
+                                          QMessageBox::Yes | QMessageBox::No);
+
+        if(confirmacion == QMassageBox::Yes) {
+            listaPeliculas.remove(filaSeleccionada);
+            on_tablaMostrarPelis();
+            QMessageBox::information(this, "Éxito", "Película eliminada");
+        }
+    }else{
+        QMesssageBox::warning(this, "Error", "Selecciona una pelicula primero");
+    }
+}
+
+            
+    
 
