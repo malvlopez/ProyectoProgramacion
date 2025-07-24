@@ -30,7 +30,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    vector<pelicula> listaPeliculas;
+    QVector<pelicula> listaPeliculas;
 
+    void actualizarTabla();
 };
 #endif // MAINWINDOW_H
