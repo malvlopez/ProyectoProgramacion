@@ -1,9 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-#include "pelicula.h"
-#include <QMainWindow>
-using namespace std;
 
+#include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,13 +18,14 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_BotonAgregar_clicked();
-    void on_tablaMostrarPelis();
-
+    void on_btnAgregar_clicked();
+    void on_btnEditar_clicked();
+    void on_btnEliminar_clicked();
 
 private:
     Ui::MainWindow *ui;
-    vector<pelicula> listaPeliculas;
 
 };
 #endif // MAINWINDOW_H
+
+
