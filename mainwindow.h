@@ -7,6 +7,8 @@
 using namespace std;
 
 
+#include <QMainWindow>
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -22,6 +24,7 @@ public:
     ~MainWindow();
 
 private slots:
+
     void on_BotonAgregar_clicked();
     void on_tablaMostrarPelis();
     void on_BotonEditar_clicked();  
@@ -31,7 +34,15 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QVector<pelicula> listaPeliculas;
+    void on_btnAgregar_clicked();
+    void on_btnEditar_clicked();
+    void on_btnEliminar_clicked();
+
+private:
+    Ui::MainWindow *ui;
 
     void actualizarTabla();
 };
 #endif // MAINWINDOW_H
+
+
