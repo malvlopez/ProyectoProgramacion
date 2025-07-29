@@ -18,9 +18,15 @@ public:
 
     void cargarDatos(const Pelicula &pelicula);
     Pelicula obtenerDatos() const;
+    bool debeEliminar() const;  
+
+private slots:
+    void on_btnGuardar_clicked();  
+    void on_btnEliminar_clicked(); 
 
 private:
     Ui::EditarPeliculaDialog *ui;
+    bool m_debeEliminar = false;  
 };
 
 #endif // EDITARPELICULADIALOG_H
