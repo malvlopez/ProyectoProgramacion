@@ -29,7 +29,7 @@ void MainWindow::on_btnAgregar_clicked()
         ui->TablaMostrarPelis->insertRow(fila);
 
         ui->TablaMostrarPelis->setItem(fila, 0, new QTableWidgetItem(form.ui->lineEditNombre->text()));
-        ui->TablaMostrarPelis->setItem(fila, 1, new QTableWidgetItem(QString::number(form.ui->spinBoxCalificacion->value())));
+        ui->TablaMostrarPelis->setItem(fila, 1, new QTableWidgetItem(QString::number(form.ui->doubleSpinBoxCalificacion->value())));
         ui->TablaMostrarPelis->setItem(fila, 2, new QTableWidgetItem(form.ui->textEditResena->toPlainText()));
         ui->TablaMostrarPelis->setItem(fila, 3, new QTableWidgetItem(form.ui->comboBoxEstado->currentText()));
         ui->TablaMostrarPelis->setItem(fila, 4, new QTableWidgetItem(form.ui->lineEditDirector->text()));
@@ -42,13 +42,14 @@ void MainWindow::on_btnEditar_clicked()
     if (fila >= 0) {
         FormView form(this);
         form.ui->lineEditNombre->setText(ui->TablaMostrarPelis->item(fila, 0)->text());
-        form.ui->spinBoxCalificacion->setValue(ui->TablaMostrarPelis->item(fila, 1)->text().toInt());
+        form.ui->doubleSpinBoxCalificacion->setValue(ui->TablaMostrarPelis->item(fila, 1)->text().toInt());
         form.ui->textEditResena->setPlainText(ui->TablaMostrarPelis->item(fila, 2)->text());
         form.ui->comboBoxEstado->setCurrentText(ui->TablaMostrarPelis->item(fila, 3)->text());
+        form.ui->lineEditDirector->setText(ui->TablaMostrarPelis->item(fila, 4)->text());
 
         if (form.exec() == QDialog::Accepted) {
             ui->TablaMostrarPelis->setItem(fila, 0, new QTableWidgetItem(form.ui->lineEditNombre->text()));
-            ui->TablaMostrarPelis->setItem(fila, 1, new QTableWidgetItem(QString::number(form.ui->spinBoxCalificacion->value())));
+            ui->TablaMostrarPelis->setItem(fila, 1, new QTableWidgetItem(QString::number(form.ui->doubleSpinBoxCalificacion->value())));
             ui->TablaMostrarPelis->setItem(fila, 2, new QTableWidgetItem(form.ui->textEditResena->toPlainText()));
             ui->TablaMostrarPelis->setItem(fila, 3, new QTableWidgetItem(form.ui->comboBoxEstado->currentText()));
             ui->TablaMostrarPelis->setItem(fila, 4, new QTableWidgetItem(form.ui->lineEditDirector->text()));

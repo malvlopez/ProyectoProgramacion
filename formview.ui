@@ -131,7 +131,7 @@ border-bottom-color: rgb(57, 115, 85);</string>
     </property>
    </item>
   </widget>
-  <widget class="QSpinBox" name="spinBoxCalificacion">
+  <widget class="QDoubleSpinBox" name="doubleSpinBoxCalificacion">
    <property name="geometry">
     <rect>
      <x>100</x>
