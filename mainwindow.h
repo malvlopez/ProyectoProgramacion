@@ -21,6 +21,8 @@ private slots:
     void on_btnAgregar_clicked();
     void on_btnEditar_clicked();
     void on_btnEliminar_clicked();
+    void cargarPeliculasDesdeArchivo();
+    void guardarPeliculasEnArchivo();
 
 private:
     Ui::MainWindow *ui;

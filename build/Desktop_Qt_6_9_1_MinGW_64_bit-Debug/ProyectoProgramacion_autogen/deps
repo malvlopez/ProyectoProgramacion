@@ -150,7 +150,9 @@ ProyectoProgramacion_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.9.1/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.9.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.9.1/mingw_64/include/QtWidgets/QDialog \
 	C:/Qt/6.9.1/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Qt/6.9.1/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.9.1/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -337,6 +339,8 @@ ProyectoProgramacion_autogen/timestamp: \
 	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ProyectoProgramacion_autogen/moc_predefs.h \
+	C:/Qt/Proyects/ProyectoProgramacion/formview.cpp \
+	C:/Qt/Proyects/ProyectoProgramacion/formview.h \
 	C:/Qt/Proyects/ProyectoProgramacion/main.cpp \
 	C:/Qt/Proyects/ProyectoProgramacion/mainwindow.cpp \
 	C:/Qt/Proyects/ProyectoProgramacion/mainwindow.h \
@@ -583,5 +587,6 @@ ProyectoProgramacion_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+	C:/Qt/Proyects/ProyectoProgramacion/formview.ui \
 	C:/Qt/Proyects/ProyectoProgramacion/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

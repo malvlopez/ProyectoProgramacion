@@ -345,6 +345,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Qt/Proyects/ProyectoProgramacion/formview.h",
+			"MU",
+			"EWIEGA46WW/moc_formview.cpp",
+			null
+		],
+		[
 			"C:/Qt/Proyects/ProyectoProgramacion/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -422,6 +428,7 @@
 	"SETTINGS_FILE" : "C:/Qt/Proyects/ProyectoProgramacion/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/ProyectoProgramacion_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Qt/Proyects/ProyectoProgramacion/formview.cpp", "MU", null ],
 		[ "C:/Qt/Proyects/ProyectoProgramacion/main.cpp", "MU", null ],
 		[ "C:/Qt/Proyects/ProyectoProgramacion/mainwindow.cpp", "MU", null ]
 	],
