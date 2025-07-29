@@ -8,15 +8,15 @@ FormView::FormView(QWidget *parent)
 {
     ui->setupUi(this);
 
-    ui->spinBoxCalificacion->setMaximum(10);
+    ui->doubleSpinBoxCalificacion->setMaximum(10);
 }
 
 void FormView::setDatos(QString nombre, QString calificacion, QString reseña, QString estado, QString director) {
     ui->lineEditNombre->setText(nombre);
-    ui->spinBoxCalificacion->setValue(calificacion.toInt());
+    ui->doubleSpinBoxCalificacion->setValue(calificacion.toInt());
     ui->textEditResena->setPlainText(reseña);
     ui->comboBoxEstado->setCurrentText(estado);
-    ui->lineEditDirector->setText(nombre);
+    ui->lineEditDirector->setText(director);
 }
 
 QString FormView::getNombre() const {
@@ -24,7 +24,7 @@ QString FormView::getNombre() const {
 }
 
 QString FormView::getCalificacion() const {
-    return QString::number(ui->spinBoxCalificacion->value());
+    return QString::number(ui->doubleSpinBoxCalificacion->value());
 }
 
 QString FormView::getReseña() const {
